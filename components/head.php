@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="<?php tr('en')?>">
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>Restaurantly Bootstrap Template - Index</title>
+	<title><?php tr("")?></title>
 	<meta content="cafedelaplazalh Hospitalet Barcelona Restaurant " name="description">
 	<meta content="cafedelaplazalh cafedelaplaza Hospitalet" name="keywords">
 	<link href="assets/img/favicon.png" rel="icon">

@@ -1,3 +1,5 @@
+<?php include_once "util/translate.php" ?>
+
 <?php include "components/head.php"; ?>
 <body>
 
@@ -9,20 +11,16 @@
 	<div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
 		<div class="row">
 			<div class="col-lg-8">
-				<h1>Welcome to <span>Restaurantly</span></h1>
+				<h1>Welcome to <span><?php tr("Cafè de la Plaça")?></span></h1>
 				<h2>Delivering great food for more than 18 years!</h2>
-
 				<div class="btns">
 					<a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
 					<a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
 				</div>
 			</div>
-			<div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in"
-			     data-aos-delay="200">
-				<a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video"
-				   data-autoplay="true"></a>
+			<div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+				<a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
 			</div>
-
 		</div>
 	</div>
 </section><!-- End Hero -->
@@ -47,13 +45,13 @@
 						magna aliqua.
 					</p>
 					<ul>
-						<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 							consequat.
 						</li>
-						<li><em class="icofont-check-circled"></em> Duis aute irure dolor in reprehenderit in voluptate
+						<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate
 							velit.
 						</li>
-						<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
 							mastiro dolore eu fugiat nulla pariatur.
 						</li>
@@ -375,13 +373,13 @@
 							magna aliqua.
 						</p>
 						<ul>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
-							<li><em class="icofont-check-circled"></em> Duis aute irure dolor in reprehenderit in
+							<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
 								voluptate velit.
 							</li>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
 						</ul>
@@ -408,13 +406,13 @@
 							magna aliqua.
 						</p>
 						<ul>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
-							<li><em class="icofont-check-circled"></em> Duis aute irure dolor in reprehenderit in
+							<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
 								voluptate velit.
 							</li>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
 						</ul>
@@ -441,13 +439,13 @@
 							magna aliqua.
 						</p>
 						<ul>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
-							<li><em class="icofont-check-circled"></em> Duis aute irure dolor in reprehenderit in
+							<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
 								voluptate velit.
 							</li>
-							<li><em class="icofont-check-circled"></em> Ullamco laboris nisi ut aliquip ex ea commodo
+							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
 								consequat.
 							</li>
 						</ul>
@@ -542,7 +540,7 @@
 						<iem class="bx bxs-quote-alt-left quote-icon-left"></iem>
 						Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
 						Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-						<em class="bx bxs-quote-alt-right quote-icon-right"></em>
+						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 					</p>
 					<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
 					<h3>Saul Goodman</h3>
@@ -551,10 +549,10 @@
 
 				<div class="testimonial-item">
 					<p>
-						<em class="bx bxs-quote-alt-left quote-icon-left"></em>
+						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
 						Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
 						malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-						<em class="bx bxs-quote-alt-right quote-icon-right"></em>
+						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 					</p>
 					<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
 					<h3>Sara Wilsson</h3>
@@ -563,10 +561,10 @@
 
 				<div class="testimonial-item">
 					<p>
-						<em class="bx bxs-quote-alt-left quote-icon-left"></em>
+						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
 						Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
 						minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-						<em class="bx bxs-quote-alt-right quote-icon-right"></em>
+						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 					</p>
 					<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
 					<h3>Jena Karlis</h3>
@@ -575,11 +573,11 @@
 
 				<div class="testimonial-item">
 					<p>
-						<em class="bx bxs-quote-alt-left quote-icon-left"></em>
+						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
 						Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
 						velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
 						veniam.
-						<em class="bx bxs-quote-alt-right quote-icon-right"></em>
+						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 					</p>
 					<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
 					<h3>Matt Brandon</h3>
@@ -588,11 +586,11 @@
 
 				<div class="testimonial-item">
 					<p>
-						<em class="bx bxs-quote-alt-left quote-icon-left"></em>
+						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
 						Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
 						culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
 						quid.
-						<em class="bx bxs-quote-alt-right quote-icon-right"></em>
+						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 					</p>
 					<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
 					<h3>John Larson</h3>
@@ -707,10 +705,10 @@
 								<span>Master Chef</span>
 							</div>
 							<div class="social">
-								<a href=""><em class="icofont-twitter"></em></a>
-								<a href=""><em class="icofont-facebook"></em></a>
-								<a href=""><em class="icofont-instagram"></em></a>
-								<a href=""><em class="icofont-linkedin"></em></a>
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
@@ -725,10 +723,10 @@
 								<span>Patissier</span>
 							</div>
 							<div class="social">
-								<a href=""><em class="icofont-twitter"></em></a>
-								<a href=""><em class="icofont-facebook"></em></a>
-								<a href=""><em class="icofont-instagram"></em></a>
-								<a href=""><em class="icofont-linkedin"></em></a>
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
@@ -743,10 +741,10 @@
 								<span>Cook</span>
 							</div>
 							<div class="social">
-								<a href=""><em class="icofont-twitter"></em></a>
-								<a href=""><em class="icofont-facebook"></em></a>
-								<a href=""><em class="icofont-instagram"></em></a>
-								<a href=""><em class="icofont-linkedin"></em></a>
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
@@ -780,13 +778,13 @@
 				<div class="col-lg-4">
 					<div class="info">
 						<div class="address">
-							<em class="icofont-google-map"></em>
+							<i class="icofont-google-map"></i>
 							<h4>Location:</h4>
 							<p>A108 Adam Street, New York, NY 535022</p>
 						</div>
 
 						<div class="open-hours">
-							<em class="icofont-clock-time icofont-rotate-90"></em>
+							<i class="icofont-clock-time icofont-rotate-90"></i>
 							<h4>Open Hours:</h4>
 							<p>
 								Monday-Saturday:<br>
@@ -795,13 +793,13 @@
 						</div>
 
 						<div class="email">
-							<em class="icofont-envelope"></em>
+							<i class="icofont-envelope"></i>
 							<h4>Email:</h4>
 							<p>info@example.com</p>
 						</div>
 
 						<div class="phone">
-							<em class="icofont-phone"></em>
+							<i class="icofont-phone"></i>
 							<h4>Call:</h4>
 							<p>+1 5589 55488 55s</p>
 						</div>
@@ -858,6 +856,6 @@
 <?php include "components/footer.php"; ?>
 
 <div id="preloader"></div>
-<a href="#" class="back-to-top"><em class="bx bx-up-arrow-alt"></em></a>
+<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
 <?php include "components/jsimports.php"; ?>
