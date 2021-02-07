@@ -1,7 +1,7 @@
 <?php include_once "util/constants.php" ?>
 <?php include_once "util/translate.php" ?>
 <!DOCTYPE html>
-<html lang="<?php tr('en') ?>">
+<html lang="<?= tr('en') ?>">
 <?php include "components/head.php"; ?>
 <body>
 <?php include "components/topbar.php"; ?>
@@ -13,7 +13,7 @@
 	<?php include "components/sections/menu.php"; ?>
 	<?php include "components/sections/special.php"; ?>
 	<?php include "components/sections/events.php"; ?>
-	<?php include "components/sections/bookatable.php"; ?>
+	<!--?php include "components/sections/bookatable.php"; ?-->
 	<?php include "components/sections/testimonials.php"; ?>
 	<?php include "components/sections/gallery.php"; ?>
 	<?php include "components/sections/chefs.php"; ?>

@@ -2,8 +2,9 @@
 
 + ~~multilingua~~
 + ~~ico, title~~
++ ~~togliere book a table~~
 + facebook, instagram
 + almacen
-+ togliere book a table
 + togliere tutte immagini mock
 + data entry
++ video

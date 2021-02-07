@@ -2,7 +2,7 @@
 	<div class="container d-flex justify-content-between">
 		<div class="contact-info">
 			<i class="icofont-phone"></i> +0034 93 422 59 99
-			<span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> <?php tr("timetable")?></span>
+			<span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> <?= tr("timetable")?></span>
 		</div>
 		<div class="languages">
 			<ul>
