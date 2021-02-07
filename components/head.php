@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="<?php tr('en')?>">
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title><?php tr("")?></title>
+	<title><?php tr("Cafè de la Plaça")?></title>
 	<meta content="cafedelaplazalh Hospitalet Barcelona Restaurant " name="description">
 	<meta content="cafedelaplazalh cafedelaplaza Hospitalet" name="keywords">
 	<link href="assets/img/favicon.png" rel="icon">
