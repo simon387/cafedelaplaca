@@ -21,16 +21,17 @@ function tr($key)
 	);
 	//main switch
 	switch ($key) {
-		case "Cafè de la Plaça":
-			echo $key;
-			break;
 		case "en":
-			echo $lang;
-			break;
+			return ec($lang);
 		case "timetable":
-			echo $matrix[0][$index];
-			break;
+			return ec($matrix[0][$index]);
 		default:
-			echo $key;
+			return ec($key);
 	}
+}
+
+function ec($text)
+{
+	echo $text;
+	return 0;
 }
