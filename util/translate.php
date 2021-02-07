@@ -29,7 +29,8 @@ function tr($key)
 		array("contact", "Contact", "Contacto", "Contacte"),
 		array("welcome_to", "Welcome to ", "Bienvenido a ", "Benvingut a "),
 		array("subtitle", "Delivering great food for more than 18 years!", "¡Entregando buena comida por más de 18 años!", "Repartint menjar excel·lent durant més de 18 anys!"),
-		array("our_menu", "Our Menu", "", ""),
+		array("our_menu", "Our Menu", "Nuestro menú", "El nostre menú"),
+		array("", "", "", ""),
 	);
 	for ($i = 0; $i < count($matrix); $i++) {
 		if ($matrix[$i][0] == $key) {
