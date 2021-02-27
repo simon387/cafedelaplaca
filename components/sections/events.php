@@ -1,8 +1,8 @@
 <section id="events" class="events">
 	<div class="container" data-aos="fade-up">
 		<div class="section-title">
-			<h2>Events</h2>
-			<p>Organize Your Events in our Restaurant</p>
+			<h2><?=tr("events")?></h2>
+			<p><?=tr("events-p")?></p>
 		</div>
 		<div class="owl-carousel events-carousel" data-aos="fade-up" data-aos-delay="100">
 			<div class="row event-item">
