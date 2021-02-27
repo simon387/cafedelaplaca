@@ -10,7 +10,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
-				<a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
+				<a href="https://youtu.be/MiFC74XdXjs" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
 			</div>
 		</div>
 	</div>
