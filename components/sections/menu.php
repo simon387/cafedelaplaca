@@ -1,8 +1,8 @@
 <section id="menu" class="menu section-bg">
 	<div class="container" data-aos="fade-up">
 		<div class="section-title">
-			<h2>Menu</h2>
-			<p>Check Our Tasty Menu</p>
+			<h2><?=tr("menu")?></h2>
+			<p><?=tr("menu-p")?></p>
 		</div>
 		<div class="row" data-aos="fade-up" data-aos-delay="100">
 			<div class="col-lg-12 d-flex justify-content-center">
