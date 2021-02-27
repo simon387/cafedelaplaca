@@ -15,13 +15,7 @@
 					<li><i class="icofont-check-circled"></i><?=tr("about-li-2")?></li>
 					<li><i class="icofont-check-circled"></i><?=tr("about-li-3")?></li>
 				</ul>
-<!--				<p>-->
-<!--					Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit-->
-<!--					in voluptate-->
-<!--					velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non-->
-<!--					proident, sunt in-->
-<!--					culpa qui officia deserunt mollit anim id est laborum-->
-<!--				</p>-->
+<!--				qua sotto c'era un p aggiuntivo-->
 			</div>
 		</div>
 	</div>
