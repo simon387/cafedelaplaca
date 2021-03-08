@@ -10,30 +10,26 @@
 					<img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3>Birthday Parties</h3>
-					<div class="price">
-						<p><span>$189</span></p>
-					</div>
+					<h3><?=tr("events-h3-1")?></h3>
+<!--					<div class="price">-->
+<!--						<p><span>$189</span></p>-->
+<!--					</div>-->
 					<p class="font-italic">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore
-						magna aliqua.
+						<?=tr("events-p-1")?>
 					</p>
-					<ul>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-						<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
-							voluptate velit.
-						</li>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-					</ul>
+<!--					<ul>-->
+<!--						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo-->
+<!--							consequat.-->
+<!--						</li>-->
+<!--						<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in-->
+<!--							voluptate velit.-->
+<!--						</li>-->
+<!--						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo-->
+<!--							consequat.-->
+<!--						</li>-->
+<!--					</ul>-->
 					<p>
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur
+						<?=tr("events-p-2")?>
 					</p>
 				</div>
 			</div>
@@ -42,30 +38,12 @@
 					<img src="assets/img/event-private.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3>Private Parties</h3>
-					<div class="price">
-						<p><span>$290</span></p>
-					</div>
+					<h3><?=tr("events-h3-2")?></h3>
 					<p class="font-italic">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore
-						magna aliqua.
+						<?=tr("events-p-1")?>
 					</p>
-					<ul>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-						<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
-							voluptate velit.
-						</li>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-					</ul>
 					<p>
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur
+						<?=tr("events-p-2")?>
 					</p>
 				</div>
 			</div>
@@ -74,30 +52,12 @@
 					<img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3>Custom Parties</h3>
-					<div class="price">
-						<p><span>$99</span></p>
-					</div>
+					<h3><?=tr("events-h3-3")?></h3>
 					<p class="font-italic">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore
-						magna aliqua.
+						<?=tr("events-p-1")?>
 					</p>
-					<ul>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-						<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
-							voluptate velit.
-						</li>
-						<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-						</li>
-					</ul>
 					<p>
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur
+						<?=tr("events-p-2")?>
 					</p>
 				</div>
 			</div>
