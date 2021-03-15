@@ -5,11 +5,11 @@
 + ~~togliere book a table~~
 + ~~facebook, instagram~~
 + ~~video~~
++ ~~eventi~~
++ ~~data entry~~
 + togliere tutte immagini mock
-+ data entry
-+ eventi
++ sezione foto
 + staff
 + menu
 + almacen
-+ sezione foto
 + sezione commenti

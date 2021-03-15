@@ -7,7 +7,7 @@
 		<div class="owl-carousel events-carousel" data-aos="fade-up" data-aos-delay="100">
 			<div class="row event-item">
 				<div class="col-lg-6">
-					<img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+					<img src="assets/img/4db3495a-c377-4954-b1a6-8b68d2e91789.jpeg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><?=tr("events-h3-1")?></h3>
@@ -35,7 +35,7 @@
 			</div>
 			<div class="row event-item">
 				<div class="col-lg-6">
-					<img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+					<img src="assets/img/781168db-d951-4aec-a212-30061a05d7ef.jpeg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><?=tr("events-h3-2")?></h3>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="row event-item">
 				<div class="col-lg-6">
-					<img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+					<img src="assets/img/43914044_574971226254485_5643164405801536195_n.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><?=tr("events-h3-3")?></h3>
