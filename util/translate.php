@@ -55,9 +55,7 @@ function tr($key)
 		array("events-h3-3", "Custom Parties", "Fiestas personalizadas", "Festes personalitzades"),
 		array("events-p-1", "To organize your dinners and private events of all kinds, CAFÈ DE LA PLAÇA is the perfect place. Your party is a special moment: invite your friends to join us, and we'll take care of everything!", "Para organizar tus cenas y eventos privados de todo tipo, CAFÈ DE LA PLAÇA es el lugar perfecto. Tu fiesta es un momento especial: invita a tus amigos a que se unan a nosotros y ¡nos encargaremos de todo!", "Per organitzar els vostres sopars i esdeveniments privats de tota mena, CAFÈ DE LA PLAÇA és el lloc perfecte. La vostra festa és un moment especial: convideu els vostres amics a acompanyar-nos i nosaltres ens encarregarem de tot!"),
 		array("events-p-2", "A birthday is a special event, even in a busy life like ours. Give yourself your first gift, treating yourself to a special party in an elegant and exclusive restaurant!", "Un cumpleaños sigue siendo un evento especial, incluso en una vida ajetreada como la nuestra. ¡Regálate tu primer regalo, regálate una fiesta especial en un entorno elegante y exclusivo!", "Un aniversari continua sent un esdeveniment especial, fins i tot en una vida atrafegada com la nostra. Feu-vos el vostre primer regal, regalant-vos una festa especial en un entorn elegant i exclusiu."),
-		array("", "", "", ""),
-		array("", "", "", ""),
-		array("", "", "", ""),
+		array("gallery-p", "Some photos from Our Restaurant", "Algunas fotos de Nuestro Restaurante", "Algunes fotos del nostre restaurant"),
 	);
 	for ($i = 0; $i < count($matrix); $i++) {
 		if ($matrix[$i][0] == $key) {

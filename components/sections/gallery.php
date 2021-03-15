@@ -1,8 +1,8 @@
 <section id="gallery" class="gallery">
 	<div class="container" data-aos="fade-up">
 		<div class="section-title">
-			<h2>Gallery</h2>
-			<p>Some photos from Our Restaurant</p>
+			<h2><?=tr("gallery")?></h2>
+			<p><?=tr("gallery-p")?></p>
 		</div>
 	</div>
 	<div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
