@@ -14,7 +14,7 @@
 						<div class="social-links mt-3">
 <!--							<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
 							<a href="https://www.facebook.com/CafeDeLaPlazaLh" class="facebook"><i class="bx bxl-facebook"></i></a>
-							<a href="www.instagram.com/cafedelaplaza_lh/" class="instagram"><i class="bx bxl-instagram"></i></a>
+							<a href="https://www.instagram.com/cafedelaplaza_lh/" class="instagram"><i class="bx bxl-instagram"></i></a>
 <!--							<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
 <!--							<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
 						</div>
