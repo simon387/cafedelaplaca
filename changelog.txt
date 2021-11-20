@@ -1,3 +1,6 @@
+Version 1.0.4
+- fixed workflow
+
 Version 1.0.3
 - added minify to CI
 
