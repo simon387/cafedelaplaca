@@ -56,7 +56,7 @@ fclose($f);
 		</div>
 	</div>
 	<div class="container">
-		<div class="copyright">&copy; Copyright <strong><span><a href="www.simonecelia.it">www.simonecelia.it</a></span></strong>. All Rights Reserved. <?php echo $version ?></div>
+		<div class="copyright">&copy; Copyright <strong><span><a target="_blank" href="https:\\www.simonecelia.it">www.simonecelia.it</a></span></strong>. All Rights Reserved. <?php echo $version ?></div>
 		<div class="credits">
 			Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 		</div>
