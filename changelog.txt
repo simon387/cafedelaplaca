@@ -1,10 +1,11 @@
-1.0.2
+Version 1.0.3
+- added minify to CI
 
-+ Added CI
-+ Go to Public Repo
+Version 1.0.2
+- Added CI
+- Go to Public Repo
 
-1.0.1
+Version 1.0.1
+- fix link instragram
 
-+ fix link instragram
-
-1.0.0
+Version 1.0.0
