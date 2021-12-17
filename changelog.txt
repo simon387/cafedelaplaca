@@ -1,3 +1,6 @@
+Version 1.0.7
+- fixed php deprecation
+
 Version 1.0.6
 - fixed php return
 

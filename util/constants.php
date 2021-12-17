@@ -1,2 +1,2 @@
 <?php
-define("TITLE", "Cafè de la Plaça");
+const TITLE = "Cafè de la Plaça";
