@@ -62,4 +62,5 @@ function tr($key)
 			return $matrix[$i][$index];
 		}
 	}
+	return null;
 }

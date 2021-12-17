@@ -1,3 +1,6 @@
+Version 1.0.6
+- fixed php return
+
 Version 1.0.5
 - fixed footer
 
