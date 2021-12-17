@@ -1,25 +1,5 @@
 <?php
-// main translation function
-function tr($key)
-{
-	//getting query string for language detection
-	$queryString = $_SERVER["QUERY_STRING"];
-	$lang = str_replace("lang=", "", $queryString);
-	if ($lang == '') {
-		$lang = "en";
-	}
-	if ($key == "en") {
-		return $lang;
-	}
-	//in-memory 2d-matrix with all translations, that's a small site(one page)
-	$index = 1;
-	if ($lang == "es") {
-		$index = 2;
-	}
-	if ($lang == "ca") {
-		$index = 3;
-	}
-	$matrix = array(//key, en, es, ca
+const matrix = array(//key, en, es, ca
 		array("timetable", "Mon-Sun: 08:00 AM - 24:00 PM", "Lun-Dom: 08:00 AM - 24:00 PM", "Dil-Diu: 08:00 AM - 24:00 PM"),
 		array("menu", "Menu", "Menú", "Menú"),
 		array("specials", "Specials", "Especiales", "Especials"),
@@ -39,8 +19,7 @@ function tr($key)
 		array("why-us-h4-1", "Quality", "Calidad", "Qualitat"),
 		array("why-us-p-1", "Our first goal is quality", "Nuestro primer objetivo es la calidad", "El nostre primer objectiu és la qualitat"),
 		array("why-us-h4-2", "Courtesy", "Cortesía", "Cortesia"),
-		array("why-us-p-2", "The efficiency of our services is very important to us,", "La eficiencia de nuestros servicios es muy importante para nosotros
-", "L'eficiència dels nostres serveis és molt important per a nosaltres"),
+		array("why-us-p-2", "The efficiency of our services is very important to us,", "La eficiencia de nuestros servicios es muy importante para nosotros", "L'eficiència dels nostres serveis és molt important per a nosaltres"),
 		array("why-us-h4-3", "Rapidity", "Velocidad", "Velocitat"),
 		array("why-us-p-3", "We are very quick to serve you, even at home", "Somos muy rápidos en atenderle, incluso en casa", "Ens servim molt ràpidament, fins i tot a casa"),
 		array("menu-p", "Check Our Tasty Menu", "Lee nuestra sabroso menú", "Llegeix la nostra saborós menú"),
@@ -56,10 +35,29 @@ function tr($key)
 		array("events-p-1", "To organize your dinners and private events of all kinds, CAFÈ DE LA PLAÇA is the perfect place. Your party is a special moment: invite your friends to join us, and we'll take care of everything!", "Para organizar tus cenas y eventos privados de todo tipo, CAFÈ DE LA PLAÇA es el lugar perfecto. Tu fiesta es un momento especial: invita a tus amigos a que se unan a nosotros y ¡nos encargaremos de todo!", "Per organitzar els vostres sopars i esdeveniments privats de tota mena, CAFÈ DE LA PLAÇA és el lloc perfecte. La vostra festa és un moment especial: convideu els vostres amics a acompanyar-nos i nosaltres ens encarregarem de tot!"),
 		array("events-p-2", "A birthday is a special event, even in a busy life like ours. Give yourself your first gift, treating yourself to a special party in an elegant and exclusive restaurant!", "Un cumpleaños sigue siendo un evento especial, incluso en una vida ajetreada como la nuestra. ¡Regálate tu primer regalo, regálate una fiesta especial en un entorno elegante y exclusivo!", "Un aniversari continua sent un esdeveniment especial, fins i tot en una vida atrafegada com la nostra. Feu-vos el vostre primer regal, regalant-vos una festa especial en un entorn elegant i exclusiu."),
 		array("gallery-p", "Some photos from Our Restaurant", "Algunas fotos de Nuestro Restaurante", "Algunes fotos del nostre restaurant"),
-	);
-	for ($i = 0; $i < count($matrix); $i++) {
-		if ($matrix[$i][0] == $key) {
-			return $matrix[$i][$index];
+);
+function tr($key)
+{
+	//getting query string for language detection
+	$queryString = $_SERVER["QUERY_STRING"];
+	$lang = str_replace("lang=", "", $queryString);
+	if ($lang == '') {
+		$lang = "en";
+	}
+	if ($key == "en") {
+		return $lang;
+	}
+	//in-memory 2d-matrix with all translations, that's a small site(one page)
+	$index = 1;
+	if ($lang == "es") {
+		$index = 2;
+	}
+	if ($lang == "ca") {
+		$index = 3;
+	}
+	for ($i = 0; $i < count(matrix); $i++) {
+		if (matrix[$i][0] == $key) {
+			return matrix[$i][$index];
 		}
 	}
 	return null;
