@@ -1,6 +1,9 @@
 # Cafedelaplaca
 Online static site cafe de la placa de el Mario
 
+## Requirements
++ PhP 7.4+
+
 ## Production Environment
 + online: www.cafedelaplazalh.com
 
