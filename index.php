@@ -10,13 +10,13 @@
 <main id="main">
 	<?php include "components/sections/about.php"; ?>
 	<?php include "components/sections/whyus.php"; ?>
-<!--	--><?php //include "components/sections/menu.php"; ?>
-<!--	--><?php //include "components/sections/special.php"; ?>
+	<?php //include "components/sections/menu.php"; ?>
+	<?php //include "components/sections/special.php"; ?>
 	<?php include "components/sections/events.php"; ?>
 	<!--?php include "components/sections/bookatable.php"; ?-->
-<!--	--><?php //include "components/sections/testimonials.php"; ?>
+	<?php //include "components/sections/testimonials.php"; ?>
 	<?php include "components/sections/gallery.php"; ?>
-<!--	--><?php //include "components/sections/chefs.php"; ?>
+	<?php //include "components/sections/chefs.php"; ?>
 	<?php include "components/sections/contact.php"; ?>
 </main>
 <?php include "components/footer.php"; ?>
