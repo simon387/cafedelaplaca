@@ -23,6 +23,23 @@ tail -F /var/log/httpd/*
 tail -F /var/log/php-fpm/www-error.log
 ```
 
+## TODO
+
++ ~~multilingua~~
++ ~~ico, title~~
++ ~~togliere book a table~~
++ ~~facebook, instagram~~
++ ~~video~~
++ ~~eventi~~
++ ~~data entry~~
++ ~~togliere tutte immagini mock~~
++ ~~sezione foto~~
++ ~~almacen~~
++ staff
++ menu
++ sezione commenti
+
+
 ## Useful links
 
 + https://bootstrapmade.com/restaurantly-restaurant-template/
