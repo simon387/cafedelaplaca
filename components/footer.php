@@ -31,6 +31,7 @@ fclose($f);
 						<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
 						<li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.comarcacuinalhocal.es">comarcacuinalhocal.es</a></li>
 						<li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.grenyaobrador.es">grenyaobrador.es</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.simonecelia.it">simonecelia.it</a></li>
 <!--						<li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>-->
 <!--						<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>-->
 <!--						<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>-->
