@@ -1802,3 +1802,8 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/* fix mobile hamburger */
+.icofont-navigation-menu:before {
+    color: transparent;
+}
