@@ -5,7 +5,7 @@
 	<meta content="cafedelaplazalh Hospitalet Barcelona Restaurant " name="description">
 	<meta content="cafedelaplazalh cafedelaplaza Hospitalet" name="keywords">
 	<link href="assets/img/placa.ico" rel="icon">
-	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="assets/img/placa.ico" rel="apple-touch-icon">
 	<link href="assets/vendor/googleapis.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
